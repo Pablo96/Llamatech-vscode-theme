@@ -1,0 +1,21 @@
+{
+    "name": "llamatech-color-theme",
+    "displayName": "Llamatech Color Theme",
+    "description": "Llamatech color theme that matches the one in the webpage",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Llamatech",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Llamatech-color-theme.json"
+            }
+        ]
+    }
+}
